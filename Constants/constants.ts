@@ -1,0 +1,133 @@
+const FAQs = [
+    {
+        question: "What web development services does WebLoom offer?",
+        answer: "WebLoom provides a range of web development services, including custom website design, technical support, and regular website updates to ensure your online presence is always current and effective."
+    },
+    {
+        question: "How long does it take to complete a website project?",
+        answer: "The timeline for completing a website project varies depending on the complexity and scope of the project. Generally, smaller websites can be completed in a few weeks, while larger, more complex projects may take several months."
+    },
+    {
+        question: "Do you provide ongoing support after the website is launched?",
+        answer: "Yes, we offer ongoing technical support and maintenance services to ensure your website runs smoothly and stays updated with the latest technologies and trends."
+    },
+    {
+        question: "Can you help with SEO for my website?",
+        answer: "Absolutely! We provide SEO optimization services to help improve your website's visibility on search engines, ensuring that your target audience can easily find you online."
+    },
+    {
+        question: "What technologies do you use for web development?",
+        answer: "At WebLoom, we utilize a variety of technologies, including the MERN stack (MongoDB, Express.js, React, Node.js) for full-stack development, as well as modern tools like Next.js for creating fast and responsive front-end and full-stack applications."
+    },
+    {
+        question: "How can I get a quote for my project?",
+        answer: "To receive a quote for your project, simply contact us through our website or via WhatsApp. Provide us with details about your requirements, and we will respond with a tailored proposal."
+    }
+];
+
+const users ={
+    person1:"https://framerusercontent.com/images/SyIz5hIRFh60MmeXi2QL4ogIww.png",
+    person2:"https://framerusercontent.com/images/2JqS1V57M74bl8BPN2l4Hs2j0k.png",
+    person3:"https://framerusercontent.com/images/5P0eN6qtSxQg8Lrk6rw2GR9e7eI.jpg?scale-down-to=1024"
+}
+const testimonials = [
+    {
+        date: "Apr 03, 2024",
+        content: "Working with webloom was a game-changer for our online presence. Their expertise in web development transformed our site into a stunning and user-friendly platform.",
+        image: users.person1, // Replace with actual image path
+        name: "John Doe",
+        star: 5,
+    },
+    {
+        date: "Apr 10, 2024",
+        content: "webloom's attention to detail and innovative approach made our project a success. Highly recommend for anyone looking to elevate their digital experience!",
+        image: users.person2, // Replace with actual image path
+        name: "Jane Smith",
+        star: 5,
+    },
+    {
+        date: "Apr 15, 2024",
+        content: "I couldn't be happier with the website Webloom created for us. The design is sleek, and the functionality is top-notch. A true professional!",
+        image: users.person3, // Replace with actual image path
+        name: "Michael Johnson",
+        star: 5,
+    },
+    {
+        date: "Apr 20, 2024",
+        content: "Webloom's work exceeded our expectations. The website not only looks fantastic but also performs flawlessly. Thank you for your dedication!",
+        image: users.person1 ,
+        name: "Emily Davis",
+        star: 5,
+    },
+    {
+        date: "Apr 25, 2024",
+        content: "The level of service and expertise Webloom provided was remarkable. Our online platform has seen significant improvements since the redesign.",
+        image: users.person2,
+        name: "David Brown",
+        star: 4,
+    },
+    {
+        date: "May 01, 2024",
+        content: "Webloom is not just a web developer; they are a visionary. Their creativity and technical skills brought our ideas to life beautifully.",
+        image: users.person3, // Replace with actual image path
+        name: "Sarah Wilson",
+        star: 5,
+    },
+    {
+        date: "May 06, 2024",
+        content: "I was thoroughly impressed with the results. Webloom's dedication and expertise shine through their work.",
+        image: users.person1, // Replace with actual image path
+        name: "James Smith",
+        star: 5,
+    },
+    {
+        date: "May 08, 2024",
+        content: "If you're looking for a web developer who understands both design and functionality, Webloom is the one!",
+        image: users.person2, // Replace with actual image path
+        name: "Chris Wilson",
+        star: 5,
+    },
+    {
+        date: "May 05, 2024",
+        content: "Webloom took our vision and turned it into a stunning reality. Their work ethic is commendable.",
+        image: users.person3, // Replace with actual image path
+        name: "Emily Carter",
+        star: 4,
+    },
+    // New testimonials
+    {
+        date: "May 10, 2024",
+        content: "Webloom's ability to listen and deliver exactly what we needed was exceptional. Our website has never looked better!",
+        image: users.person1, // Replace with actual image path
+        name: "Lucas Taylor",
+        star: 5,
+    },
+    {
+        date: "May 12, 2024",
+        content: "Every interaction with Webloom was professional and productive. I am so pleased with the final product!",
+        image: users.person2, // Replace with actual image path
+        name: "Mia Johnson",
+        star: 5,
+    },
+    {
+        date: "May 15, 2024",
+        content: "Webloom was instrumental in revamping our website. Their insights and expertise made a world of difference.",
+        image: users.person3, // Replace with actual image path
+        name: "William Lee",
+        star: 5,
+    },
+    {
+        date: "May 18, 2024",
+        content: "The collaborative process with Webloom was smooth, and the results were beyond our expectations. Highly recommend!",
+        image: users.person1, // Replace with actual image path
+        name: "Olivia Davis",
+        star: 5,
+    },
+];
+
+
+
+export {
+    FAQs,
+    testimonials
+}
