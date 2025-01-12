@@ -5,7 +5,6 @@ import { Footer, Navbar } from "@/Components/export";
 import { ThemeProvider } from "@/Components/themeProvider";
 import { Toaster } from "@/Components/ui/toaster";
 import { Analytics } from "@vercel/analytics/react"; // Importing Analytics
-import Head from "next/head"; // Import the Head component for adding custom head tags
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -72,32 +71,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        {/* Google Tag Manager */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-PQDM42QT');`,
-          }}
-        />
-      </Head>
-
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased dark`}
       >
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-PQDM42QT"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          ></iframe>
-        </noscript>
-
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
