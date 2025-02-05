@@ -171,6 +171,7 @@ const page = () => {
                   <SelectContent className='bg-black text-gray-300 border-none'>
                     <SelectGroup>
                       <SelectItem value="Web Development" className="hover:bg-gray-400">Web Development with SEO</SelectItem>
+                      <SelectItem value="Web Designing" className="hover:bg-gray-400">Web Designing with SEO</SelectItem>
                       <SelectItem value="Web Updation" className="hover:bg-gray-400">Website Updation with SEO</SelectItem>
                       <SelectItem value="SEO" className="hover:bg-gray-400">SEO Services</SelectItem>
                     </SelectGroup>
@@ -251,10 +252,10 @@ const page = () => {
                     </SelectTrigger>
                     <SelectContent className='bg-black text-gray-300 border-none'>
                       <SelectGroup>
-                        <SelectItem value="2" className="hover:bg-gray-400">1 Week</SelectItem>
+                        <SelectItem value="1" className="hover:bg-gray-400">1 Week</SelectItem>
                         <SelectItem value="2" className="hover:bg-gray-400">2 Weeks</SelectItem>
                         <SelectItem value="3" className="hover:bg-gray-400">3 Weeks</SelectItem>
-                        <SelectItem value="3" className="hover:bg-gray-400">4 Weeks</SelectItem>
+                        <SelectItem value="4" className="hover:bg-gray-400">4 Weeks</SelectItem>
                       </SelectGroup>
                     </SelectContent>
                 </Select>
