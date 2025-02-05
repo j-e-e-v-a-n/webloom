@@ -113,7 +113,7 @@ const page = () => {
     <div className="mt-40 flex justify-center items-center mb-32">
       <div className="h-fit bg-gradient-to-br rounded-3xl from-foreground to-background w-[95vw] sm:w-[20rem] p-10 md:p-20 md:w-[50rem] text-center">
         <div className="text-grad text-2xl md:text-5xl">
-          Bring Your Vision to Life with $29!
+          Bring Your Vision to Life with us!
         </div>
         <div className="text-lg text-gray-500 mt-5 mb-10 ">
           At WebLoom, we tailor web solutions to meet your unique needs. Ready to get started? Simply select the services that match your vision, and we'll take care of the rest.

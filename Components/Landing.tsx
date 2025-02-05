@@ -30,7 +30,7 @@ const Landing = () => {
           </h1>
 
           <div className="text-gray-600 text-xs  lg:text-base max-w-[40ch] sm:max-w-[50ch] mx-auto text-center mt-5">
-          <span className="text-gray-400">Unlock your startup's potential with $29 !</span> with customized web solutions designed to fit your <span className="text-gray-400">unique needs.</span> Let's build your <span className="text-gray-400">digital presence</span> together with webloom!
+          <span className="text-gray-400">Unlock your startup's potential with us!</span> with customized web solutions designed to fit your <span className="text-gray-400">unique needs.</span> Let's build your <span className="text-gray-400">digital presence</span> together with webloom!
           </div>
           <div className="mx-auto flex gap-5 mt-5 flex-wrap  justify-center text-gray-500">
             <div className="border border-gray-900 bg-[#0d0d0d] rounded-3xl px-3 py-1 w-fit text-xs md:text-base">SEO Optimization</div>
